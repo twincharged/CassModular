@@ -1,0 +1,19 @@
+development:
+  host: '127.0.0.1'
+  port: 9042
+  keyspace: concentric_development
+
+test:
+  host: '127.0.0.1'
+  port: 9042
+  keyspace: concentric_test
+
+production:
+  hosts:
+    - 'cass1.concentric.biz'
+    - 'cass2.concentric.biz'
+    - 'cass3.concentric.biz'
+  port: 9042
+  keyspace: concentric_production
+  username: 'myappuser'
+  password: 'password1'
